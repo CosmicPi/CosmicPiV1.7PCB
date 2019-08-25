@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Cosmic)(type KiCad)(uri ${KIPRJMOD}/Cosmic.pretty)(options "")(descr ""))
+  (lib (name 744232090)(type Legacy)(uri ${KIPRJMOD}/Cosmic.pretty/744232090.mod)(options "")(descr ""))
+  (lib (name MAX3806GTCT)(type Legacy)(uri C:/Users/jdevine/Downloads/cosmicmarch/MAX3806GTCT.mod)(options "")(descr ""))
+  (lib (name maximsmd)(type KiCad)(uri ${KIPRJMOD}/maximsmd.pretty)(options "")(descr ""))
+)

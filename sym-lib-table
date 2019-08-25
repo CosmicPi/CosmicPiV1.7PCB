@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name cosmicpi_1.6-cache)(type Legacy)(uri "C:/Users/User/Desktop/arch 2018/cpi 1.6/cosmicpi_1.6/cosmicpi_1.6-cache.lib")(options "")(descr ""))
+  (lib (name CosmicPi)(type Legacy)(uri ${KIPRJMOD}/CosmicPi.lib)(options "")(descr ""))
+  (lib (name CosmicPi_1)(type Legacy)(uri ${KIPRJMOD}/CosmicPi_1.lib)(options "")(descr ""))
+  (lib (name CosmicPi1)(type Legacy)(uri ${KIPRJMOD}/CosmicPi1.lib)(options "")(descr ""))
+  (lib (name lm2903)(type Legacy)(uri ${KIPRJMOD}/lm2903.lib)(options "")(descr ""))
+  (lib (name max1932)(type Legacy)(uri ${KIPRJMOD}/max1932.lib)(options "")(descr ""))
+  (lib (name Regulator_Switching)(type Legacy)(uri ${KIPRJMOD}/Regulator_Switching.lib)(options "")(descr ""))
+  (lib (name 744232090)(type Legacy)(uri ${KIPRJMOD}/744232090.lib)(options "")(descr ""))
+  (lib (name cosmicpi_1.6-rescue)(type Legacy)(uri ${KIPRJMOD}/cosmicpi_1.6-rescue.lib)(options "")(descr ""))
+  (lib (name chokelib)(type Legacy)(uri ${KIPRJMOD}/chokelib.lib)(options "")(descr ""))
+)

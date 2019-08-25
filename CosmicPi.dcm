@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EMI_Filter_CommonMode_copy
+D EMI 2-inductor common mode filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_LL_f
+D EMI 2-inductor filter
+K EMI filter
+F ~
+$ENDCMP
+#
+$CMP LM393
+D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
+K dual comparator
+F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
+$ENDCMP
+#
+$CMP LMV393
+D Dual General-Purpose Low-Voltage Comparator, SOIC-8/TSSOP-8/VSSOP-8
+K dual comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$ENDCMP
+#
+$CMP LPS25HB
+D MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter
+K mems absolute baromeeter
+F www.st.com/resource/en/datasheet/lps25hb.pdf
+$ENDCMP
+#
+$CMP MAX991
+D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
+K dual comparator
+F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
+$ENDCMP
+#
+$CMP MCP6562
+D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8
+K dual comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
+$ENDCMP
+#
+$CMP MCP6567
+D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8
+K dual comparator
+F http://www.farnell.com/datasheets/2133492.pdf
+$ENDCMP
+#
+#End Doc Library
