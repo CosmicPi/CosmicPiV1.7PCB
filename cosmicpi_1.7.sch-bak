@@ -3530,7 +3530,7 @@ Wire Wire Line
 Text Notes 8800 10600 0    50   ~ 0
 component change for V1.7!\n
 Text Notes 11850 10400 0    50   ~ 0
-Changes for V1.7 schematic\nRevised USB implementation\nInput protection diode + cap, added CW power supplies\nRemoved interrupts from I2C devices to simplify routing\nRevisions to STM32 pins for bootloader and ESP8266 header
+Changes for V1.7 schematic\nRevised USB implementation\nInput protection diode + cap\nRemoved interrupts from I2C devices to simplify routing\nRevisions to STM32 pins for bootloader
 $Comp
 L RF_Module:ESP-12F U8
 U 1 1 5D69B3C4
