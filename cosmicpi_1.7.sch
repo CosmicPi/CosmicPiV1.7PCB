@@ -2694,64 +2694,64 @@ Wire Wire Line
 $Comp
 L Connector:Raspberry_Pi_2_3 J7
 U 1 1 5C85EEA0
-P 5300 5900
-F 0 "J7" H 5650 7300 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 5950 7200 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD" H 5300 5900 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5300 5900 50  0001 C CNN
-	1    5300 5900
+P 5350 5900
+F 0 "J7" H 5700 7300 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 6000 7200 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD" H 5350 5900 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5350 5900 50  0001 C CNN
+	1    5350 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR046
 U 1 1 5C8DAC28
-P 4900 7350
-F 0 "#PWR046" H 4900 7100 50  0001 C CNN
-F 1 "GND" H 4905 7177 50  0001 C CNN
-F 2 "" H 4900 7350 50  0001 C CNN
-F 3 "" H 4900 7350 50  0001 C CNN
-	1    4900 7350
+P 4950 7350
+F 0 "#PWR046" H 4950 7100 50  0001 C CNN
+F 1 "GND" H 4955 7177 50  0001 C CNN
+F 2 "" H 4950 7350 50  0001 C CNN
+F 3 "" H 4950 7350 50  0001 C CNN
+	1    4950 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 7200 4900 7250
+	4950 7200 4950 7250
 Wire Wire Line
-	4900 7250 5000 7250
+	4950 7250 5050 7250
 Wire Wire Line
-	5600 7250 5600 7200
-Connection ~ 4900 7250
+	5650 7250 5650 7200
+Connection ~ 4950 7250
 Wire Wire Line
-	4900 7250 4900 7350
+	4950 7250 4950 7350
 Wire Wire Line
-	5000 7200 5000 7250
-Connection ~ 5000 7250
+	5050 7200 5050 7250
+Connection ~ 5050 7250
 Wire Wire Line
-	5000 7250 5100 7250
+	5050 7250 5150 7250
 Wire Wire Line
-	5100 7200 5100 7250
-Connection ~ 5100 7250
+	5150 7200 5150 7250
+Connection ~ 5150 7250
 Wire Wire Line
-	5100 7250 5200 7250
+	5150 7250 5250 7250
 Wire Wire Line
-	5200 7200 5200 7250
-Connection ~ 5200 7250
+	5250 7200 5250 7250
+Connection ~ 5250 7250
 Wire Wire Line
-	5200 7250 5300 7250
+	5250 7250 5350 7250
 Wire Wire Line
-	5300 7200 5300 7250
-Connection ~ 5300 7250
+	5350 7200 5350 7250
+Connection ~ 5350 7250
 Wire Wire Line
-	5300 7250 5400 7250
+	5350 7250 5450 7250
 Wire Wire Line
-	5400 7200 5400 7250
-Connection ~ 5400 7250
+	5450 7200 5450 7250
+Connection ~ 5450 7250
 Wire Wire Line
-	5400 7250 5500 7250
+	5450 7250 5550 7250
 Wire Wire Line
-	5500 7200 5500 7250
-Connection ~ 5500 7250
+	5550 7200 5550 7250
+Connection ~ 5550 7250
 Wire Wire Line
-	5500 7250 5600 7250
+	5550 7250 5650 7250
 Wire Wire Line
 	3400 2300 3700 2300
 Text GLabel 3650 2500 2    50   Input ~ 0
@@ -2828,43 +2828,43 @@ Connection ~ 1200 5850
 $Comp
 L power:+5V #PWR047
 U 1 1 5CA23FDD
-P 5100 4350
-F 0 "#PWR047" H 5100 4200 50  0001 C CNN
-F 1 "+5V" H 5115 4523 50  0000 C CNN
-F 2 "" H 5100 4350 50  0001 C CNN
-F 3 "" H 5100 4350 50  0001 C CNN
-	1    5100 4350
+P 5150 4350
+F 0 "#PWR047" H 5150 4200 50  0001 C CNN
+F 1 "+5V" H 5165 4523 50  0000 C CNN
+F 2 "" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 4350 5100 4450
+	5150 4350 5150 4450
 Wire Wire Line
-	5100 4450 5200 4450
+	5150 4450 5250 4450
 Wire Wire Line
-	5200 4450 5200 4600
-Connection ~ 5100 4450
+	5250 4450 5250 4600
+Connection ~ 5150 4450
 Wire Wire Line
-	5100 4450 5100 4600
-Text GLabel 4400 5100 0    50   Output ~ 0
+	5150 4450 5150 4600
+Text GLabel 4450 5100 0    50   Output ~ 0
 TX0
-Text GLabel 4400 5000 0    50   Input ~ 0
+Text GLabel 4450 5000 0    50   Input ~ 0
 RX0
 Wire Wire Line
-	4400 5000 4500 5000
+	4450 5000 4550 5000
 Wire Wire Line
-	4400 5100 4500 5100
-Text GLabel 4400 5400 0    50   Input ~ 0
+	4450 5100 4550 5100
+Text GLabel 4450 5400 0    50   Input ~ 0
 FLAG
-Text GLabel 4400 5500 0    50   Input ~ 0
+Text GLabel 4450 5500 0    50   Input ~ 0
 BOOT0
 Wire Wire Line
-	4400 5400 4500 5400
+	4450 5400 4550 5400
 Wire Wire Line
-	4500 5500 4400 5500
-Text GLabel 6200 5600 2    50   Input ~ 0
+	4550 5500 4450 5500
+Text GLabel 6250 5600 2    50   Input ~ 0
 _RESET
 Wire Wire Line
-	6100 5600 6200 5600
+	6150 5600 6250 5600
 $Comp
 L Connector:USB_B_Micro J3
 U 1 1 5D377151
@@ -3425,7 +3425,7 @@ U 1 1 5D6883AD
 P 11550 7800
 F 0 "D9" H 11550 8065 50  0000 C CNN
 F 1 "B140" H 11550 7974 50  0000 C CNN
-F 2 "" H 11550 7800 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 11550 7800 50  0001 C CNN
 F 3 "~" H 11550 7800 50  0001 C CNN
 	1    11550 7800
 	1    0    0    -1  
@@ -3436,7 +3436,7 @@ U 1 1 5D9CC771
 P 2450 6750
 F 0 "D10" H 2450 7015 50  0000 C CNN
 F 1 "B140" H 2450 6924 50  0000 C CNN
-F 2 "" H 2450 6750 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 2450 6750 50  0001 C CNN
 F 3 "~" H 2450 6750 50  0001 C CNN
 	1    2450 6750
 	1    0    0    -1  
@@ -3602,14 +3602,14 @@ Wire Wire Line
 	5900 2700 5800 2700
 Wire Wire Line
 	5900 2900 5800 2900
-Text GLabel 6200 5300 2    50   Input ~ 0
+Text GLabel 6250 5300 2    50   Input ~ 0
 ESP_Reset
-Text GLabel 6200 5400 2    50   Input ~ 0
+Text GLabel 6250 5400 2    50   Input ~ 0
 ESP_Boot
 Wire Wire Line
-	6100 5300 6200 5300
+	6150 5300 6250 5300
 Wire Wire Line
-	6100 5400 6200 5400
+	6150 5400 6250 5400
 $Comp
 L Device:R R71
 U 1 1 5E13B204
